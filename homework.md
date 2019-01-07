@@ -48,3 +48,6 @@ A. SELECT show_time FROM movies
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+A. DELETE FROM movies
+   WHERE id in (1, 2, 3, 4, 5)
