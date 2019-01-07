@@ -40,6 +40,11 @@ A. INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War',
 
 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
 
+A. SELECT show_time FROM movies
+   WHERE title = 'Guardians of the Galaxy'
+
+   INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '20:55')
+
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
