@@ -36,7 +36,7 @@ A. DELETE FROM people
 
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'! Create a new entry in the 'movies' table to reflect this.
 
-A. 
+A. INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00')
 
 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
 
