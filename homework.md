@@ -43,7 +43,12 @@ A. INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War',
 A. SELECT show_time FROM movies
    WHERE title = 'Guardians of the Galaxy'
 
-   INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '20:55')
+   --Ignore, this was not what the question was asking
+   --INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '20:55')
+
+   UPDATE movies
+   SET show_time = '20:55'
+   WHERE id = 16
 
 ## Extension
 
